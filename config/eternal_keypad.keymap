@@ -19,6 +19,18 @@
       zmk,kscan = &kscan0;
       zmk,matrix-transform = &default_transform;
   };
+  behaviors {
+    
+        td: tapdance {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAPDANCE";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+   };
 
   keymap {
     compatible = "zmk,keymap";
@@ -27,9 +39,9 @@
       bindings = <
                     &kp ESC   &kp N1    &kp N2   &kp N3    &kp N4    &kp N5  &kp N6
                     &kp TAB   &kp Q     &kp W    &kp E     &kp R     &kp T   &kp N7
-        &kp F13     &kp ENTER &kp A     &kp S    &kp D     &kp F     &kp G   &kp N8
-        &kp F14     &kp LSHFT &kp Z     &kp X    &kp C     &kp V     &kp B   &kp N9
-        &kp F15     &kp LCTRL &sl FUNC  &kp LALT           &kp SPACE         &lt ARROW N0
+        &kp A       &kp ENTER &kp A     &kp S    &kp D     &kp F     &kp G   &kp N8
+        &kp B       &kp LSHFT &kp Z     &kp X    &kp C     &kp V     &kp B   &kp N9
+        &kp C       &kp LCTRL &kp D  &kp LALT           &kp SPACE      &kp A
       >;
     };
 
