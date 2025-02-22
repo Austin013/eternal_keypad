@@ -39,7 +39,7 @@
       bindings = <
                     &kp ESC     &td LS(N1) N1     &td LS(N2) N2   &td LS(N3) N3    &td LS(N4) N4   &td LS(N5) N5  &td LS(N6) N6
                     &kp LCTRL   &kp Q     &kp W    &kp E     &kp R     &kp T   &td LS(N7) N7
-        &td F4 F1   &kp TAB     &kp A     &kp S    &kp D     &kp F     &kp G   &td LS(N8) N8
+        &mo 1   &kp TAB     &kp A     &kp S    &kp D     &kp F     &kp G   &td LS(N8) N8
         &td F5 F2   &kp LSHFT   &kp Z     &kp X    &kp C     &kp V     &kp B   &td LS(N9) N9
         &td F6 F3   &kp O       &kp LS(P)     &td N I        &kp SPACE         &td LS(N0) N0
       >;
@@ -49,8 +49,8 @@
       bindings = <
                     &bt BT_SEL 0 &bt BT_SEL 1 &trans     &trans    &trans           &out OUT_USB     &out OUT_BLE
                     &trans       &trans       &kp UP     &trans    &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD
-        &bt BT_CLR  &trans       &kp LEFT     &kp DOWN   &kp RIGHT &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
-        &sys_reset      &trans       &trans       &trans     &trans    &trans           &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
+        &trans      &trans       &kp LEFT     &kp DOWN   &kp RIGHT &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
+        &bt BT_CLR  &trans       &trans       &trans     &trans    &trans           &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
         &bootloader &trans       &trans       &trans               &trans                            &trans
       >;
     };
