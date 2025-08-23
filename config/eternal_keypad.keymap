@@ -41,7 +41,7 @@
                           &kp LCTRL         &kp Q             &kp W           &kp E            &kp R           &kp T          &td LS(N7) N7
         &td F4 F1         &kp TAB           &kp A             &kp S           &kp D            &kp F           &kp G          &td LS(N8) N8
         &td F5 F2         &kp LSHFT         &kp Z             &kp X           &kp C            &kp V           &lt 1 B        &td LS(N9) N9
-        &td F6 F3         &kp LS(P)         &kp I             &td LS(N) N     &kp SPACE        &td LS(N0) N0
+        &td F6 F3         &kp LS(P)         &td LS(N) N       &kp I           &kp SPACE        &td LS(N0) N0
       >;
     };
 
